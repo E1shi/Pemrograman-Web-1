@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ff7613;}
+
+body {
+    font-family: Roboto !important;
+    background-color: #fffefe;
+    color: black; 
+}
+
+
+.profil {
+    background-color: #EAE4D5;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+}
+
+.foto_diri {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    object-position: center 20%;
+}
+
+.nama {
+    margin: 0;
+    font-size: 1.1rem;
+
+}
+
+.status {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subjudul {
+    color: var(--primary-color);
+    margin-top: 2rem;
+}
+
+table {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+.baris_sosmed {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.sosmeds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sosmed a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.sosmeds:hover {
+    transform: scale(1.1); 
+}
+
+
+.tombol_download {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #ff7613;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+
+.tombol_download:hover {
+    background-color: #e5670d;
+    color: white;
+}
